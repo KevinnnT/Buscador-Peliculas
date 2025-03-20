@@ -2,7 +2,7 @@ async function searchMovies() {
     const query = document.getElementById('search').value;
     if (!query) return alert('Ingresa un nombre de película');
 
-    const apiKey = 'ccdb285b'; // Reemplaza con tu API Key
+    const apiKey = 'ccdb285b';
     const url = `https://www.omdbapi.com/?s=${query}&apikey=${apiKey}`;
 
     try {
